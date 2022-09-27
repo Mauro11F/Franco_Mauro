@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+
+   <h3>Trabajo Practico N° 2</h3>
+   <h4>Ejercicio N° 6</h4>
+
+   <!-- 
+      Escribir un script que muestre la posición de la primera vocal de un texto introducido por
+      teclado.Por ejemplo: perro = “e” es la letra Nº2 ; árbol = “a” es la letra Nº1.
+   -->
+
+   <script>
+
+      var texto = window.prompt("Introducir un texto: ", "algo");
+
+      var texto = texto.toLowerCase();
+      document.writeln("Texto ingresado: ", texto, "<br>");
+
+      var bandera = true;
+      var i, iteracion = 0;
+      while (bandera == true) {
+
+         switch (texto[i]) {
+            case "a":
+               document.writeln("Primer vocal encotrada: 'a' posicion: ", i + 1);
+               bandera = false;
+               break;
+            case "e":
+               document.writeln("Primer vocal encotrada: 'e' posicion: ", i + 1);
+               bandera = false;
+               break;
+            case "i":
+               document.writeln("Primer vocal encotrada: 'i' posicion: ", i + 1);
+               bandera = false;
+               break;
+            case "o":
+               document.writeln("Primer vocal encotrada: 'o' posicion: ", i + 1);
+               bandera = false;
+               break;
+            case "u":
+               document.writeln("Primer vocal encotrada: 'u' posicion: ", i + 1);
+               bandera = false;
+               break;
+            default:
+               if (iteracion == texto.length) {
+                  document.writeln("El texto no contiene vocales:");
+                  bandera = false;
+               }
+               break;
+
+         }
+         i += 1;
+         iteracion += 1;
+
+
+      }
+
+   </script>
+
+</body>
+
+</html>

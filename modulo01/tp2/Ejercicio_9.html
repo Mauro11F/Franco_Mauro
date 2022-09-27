@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+
+   <h3>Trabajo Practico N° 2</h3>
+   <h4>Ejercicio N° 9</h4>
+
+   <!--
+      Crear un programa que recibe las notas de un alumno, todos los números deben ser naturales
+      <11. Debe calcular el promedio. Por último imprimir en pantalla si el valor de media es < 5
+      “Reprobado”, entre 6 y 8 “Aprobado” y si es mayor a 8 “Sobresaliente”.
+   -->
+
+   <script>
+
+      function aproNoapro(notas) {
+
+         var total = 0;
+         notas.forEach(function (nota) {
+
+            total += nota
+
+         });
+
+         total = (total / notas.length);
+
+         if (total <= 5) {
+            document.writeln("Reprobado Proemdio: ", total);
+         }else {
+            if (total >= 6 && total <= 8) {
+               document.writeln("Aprobado Promedo: ", total);
+            }else {
+               document.writeln("Sobresaliente Promedio: ", total);
+            }
+         }
+
+         return
+      }
+
+      var notas = [];
+      i = 1;
+      while (i < 4) {
+
+         var nota = window.prompt(`ingrese 3 Notas: (${i}/3)`);
+         if (nota >= 0 && nota < 11) {
+
+            notas.push(parseInt(nota));
+            i += 1;
+
+         } else {
+            window.alert("Error: Intente de nuevo...")
+         }
+
+      }
+
+     aproNoapro(notas);
+
+
+
+
+   </script>
+
+</body>
+
+</html>

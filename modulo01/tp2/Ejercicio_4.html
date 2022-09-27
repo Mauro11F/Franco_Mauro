@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+
+   <h3>Trabajo Practico N° 2</h3>
+   <h4>Ejercicio N° 4</h4>
+
+   <!--
+      Escribir el código de una función a la que se pasa como parámetro un número entero y
+      devuelve como resultado una cadena de texto que indica si el número es par o impar. Mostrar
+      por pantalla el resultado devuelto por la función.
+      Por ejemplo 2=par; 5=impar…
+   -->
+
+   <script>
+
+      function parImpar(valor) {
+
+         if (valor % 2 === 0) {
+            return document.writeln("El numero ", valor, " es PAR");
+         } else {
+            return document.writeln("El numero ", valor, " es IMPAR");
+         }
+      }
+
+      var numero = window.prompt("Ingrese un valor entero");
+
+      parImpar(numero);
+
+
+   </script>
+
+
+</body>
+
+</html>

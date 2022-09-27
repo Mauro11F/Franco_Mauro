@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+
+   <h3>Trabajo Practico N° 2</h3>
+   <h4>Ejercicio N° 5</h4>
+
+   <!--
+      Crear una función que muestre información sobre una cadena de texto que se le pasa como
+      argumento. A partir de la cadena que se le pasa, la función determina si esa cadena está
+      formada sólo por mayúsculas, sólo por minúsculas o por una mezcla de ambas.
+
+       ASCII [65, 90] = letra mayúscula.
+       ASCII [97, 122] = letra minúscula.
+
+   -->
+
+   <script>
+
+      function verCadena(cadena) {
+
+         if (cadena === cadena.toUpperCase()) {
+
+            return document.writeln("Contiene solo MAYUSCULAS: ", cadena);
+         } else {
+
+            if (cadena === cadena.toLowerCase()) {
+               
+               return document.writeln("Con tienen solo MINUSCULAS: ", cadena);
+            } else {
+
+               return document.writeln("Una mezcla de AMBAS: ", cadena);
+            }
+         }
+
+      }
+
+      var texto = window.prompt("Ingrese una cadena de texto: ", "aca");
+
+      verCadena(texto);
+
+   </script>
+
+</body>
+
+</html>

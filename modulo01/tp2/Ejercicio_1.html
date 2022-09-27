@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> TP N°2 </title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <h3>Trabajo Practico N° 2</h3>
+   <!--
+      1. Determinar cual de los elementos de texto es mayor, es decir el que contenga mas letras.
+      2. Imprimir los elementos de menor a mayor cantidad de letras.
+      3. Determinar el resultado de las cuatro operaciones matemáticas realizadas con los dos elementos numéricos.
+   -->
+   <script>
+
+      function mayorString(array) {
+
+         var aux = 0;
+
+         for (let x = 0; x < array.length; x++) {
+
+            for (let j = 0; j < array.length - 1; j++) {
+
+               if (array[j].length > array[j + 1].length) {
+
+                  aux = array[j];
+                  array[j] = array[j + 1];
+                  array[j + 1] = aux;
+
+               }
+
+            }
+
+         }
+         return array;
+      }
+
+      function createArray(vector, datoTipo) {
+
+         var array = [];
+
+         for (let i = 0; i < vector.length; i++) {
+
+            if (typeof (vector[i]) == datoTipo) {
+               array.push(
+                  vector[i]
+               );
+            }
+
+         }
+         return (array);
+      }
+
+      function operaciones(numeros, operacion) {
+
+         var acumulador = numeros[0];
+         switch (operacion) {
+            case "+":
+               for (let i = 1; i < numeros.length; i++) {
+
+                  acumulador += numeros[i];
+
+               }
+               return acumulador;
+               break;
+            case "-":
+               for (let i = 1; i < numeros.length; i++) {
+
+                  acumulador -= numeros[i];
+
+               }
+               return acumulador;
+               break;
+            case "*":
+               for (let i = 1; i < numeros.length; i++) {
+
+                  acumulador *= numeros[i];
+
+               }
+               return acumulador;
+               break;
+            case "/":
+               for (let i = 1; i < numeros.length; i++) {
+
+                  acumulador /= numeros[i];
+
+               }
+               return acumulador;
+               break;
+            default:
+               break;
+         }
+
+      }
+
+      var valores = [true, false, 2, "hola", "mundo", 3, "char", "paraprueba", "lol", "termolar"];
+
+
+      var array = createArray(valores, "string");
+      //const prueba = [13, 5, 2, 39, 25];
+
+      document.writeln("Array sin ordenar: <br> [", array, "] <br><br>");
+      const ordenado = mayorString(array);
+      
+      document.writeln("1) El texto mas Largo es: <br>");
+      document.writeln(" ", ordenado[ordenado.length - 1], "<br><br>");
+      
+      document.writeln("2) Textos de Menor a Mayor: <br>");
+      document.writeln("[", ordenado, "] <br><br>");
+
+      document.writeln("3) Calculos con numeros: <br>");
+      
+      const numArray = createArray(valores, "number");
+      
+      document.writeln("Array numerico: [", numArray, "]")
+      document.writeln("<br> Suma de los indices del array: ", operaciones(numArray, "+"))
+      document.writeln("<br> Resta de los indices del array: ", operaciones(numArray, "-"))
+      document.writeln("<br> Multiplicacion de los indices del array: ", operaciones(numArray, "*"))
+      document.writeln("<br> Division de los indices del array: ", operaciones(numArray, "/"))
+
+
+
+   </script>
+
+</body>
+
+</html>
