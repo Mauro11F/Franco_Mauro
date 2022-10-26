@@ -3,7 +3,7 @@
 ## Módulo 4 - Bases de datos
 
 - **Ejercicio 1**:
-  > Partiendo del modelo entidad relación (**ver PDF**), ejecutar el script y resolver las consultas. 
+  > Partiendo del modelo entidad relación (**ver PDF**), ejecutar el script y resolver las consultas.  
   > Guardar en un archivo tp5-eje1.sql las consultas...
 
 **Script para mysql**
@@ -79,7 +79,7 @@ INSERT INTO empleados VALUES(13, '20-38265162-1', 'Juan','Antonio', NULL, true);
 
 ---
 - **Ejercicio 2**:
-> Partiendo del modelo entidad relación (**ver PDF**) , ejecutar el script y resolver las consultas.
+> Partiendo del modelo entidad relación (**ver PDF**) , ejecutar el script y resolver las consultas.  
 > Guardar en un archivo tp5-eje2.sql...
 
 **Script para mysql**
