@@ -107,20 +107,11 @@ FOREIGN KEY (id_vendedor) REFERENCES vendedores(id)
   - {"fechaInicioActividades": 01/01/2019, "mesAperturaCaja": "Enero", "mesCierreCaja": "Diciembre"}
   - {"balancesAniosAnteriores": {"2019": {"ingreso": "7374901.93","egreso": "3732538,75"},"2020":{"ingreso": "27442665,12","egreso": "8522331,82"},"2021": {"ingreso": "31634912,57","egreso": "9757142,66"}}}
   > Nota: Rellenar a criterio los campos id, tms,id_usuario
-
+  
+---
 **Ejercicio 2:**
 - Subir al repositorio público apellido_nombre las respuestas `tp6-eje1.sql`.
 - Subir al repositorio publicó una captura de pantalla en jpg o png del esquema completo. El archivo debe llamarse `diagrama_bd-tp6-eje1.jpg|.png`
-
-
-
-
-
-
-
-
-
-
 
 
 
