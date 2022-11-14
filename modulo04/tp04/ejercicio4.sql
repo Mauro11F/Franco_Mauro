@@ -149,12 +149,14 @@ INSERT INTO cliente_empresa VALUES(3, 'Yesica', 54887653);
 INSERT INTO cliente VALUES(1, 37558664, 'Juan', 'Barrio Bueno', 54777999);
 INSERT INTO cliente VALUES(2, 40223555, 'Yesica', 'Casa Quinta', 54222444);
 INSERT INTO cliente VALUES(3, 38555623, 'Rosario', 'Cabeza de Vaca', 54333777);
--- FALTAAAAAAA
-INSERT INTO reserva VALUES(1, 37558664, 'Juan', 'Barrio Bueno', 54777999);
-INSERT INTO reserva VALUES(2, 40223555, 'Yesica', 'Casa Quinta', 54222444);
-INSERT INTO reserva VALUES(3, 38555623, 'Rosario', 'Cabeza de Vaca', 54333777);
--- FALTAAAAAAA
-select * from cliente;
+
+INSERT INTO reserva VALUES(1, '1998-10-02', '2021-08-13', 500200.00, 2);
+INSERT INTO reserva VALUES(2, '1990-08-12', '200-05-10', 650200.00, 1);
+INSERT INTO reserva VALUES(3, '1998-08-22', '2022-02-22', 80200.00, 3);
+
+INSERT INTO coche VALUES(1, 'BH-4855-EE', 'GEELY-LC', '#fcba03', 'Toyota', 25500.00, 2);
+INSERT INTO coche VALUES(2, 'HF-3977-GG', 'CHERRY-QQ', '#0320fc', 'Volkswagen', 32555.00, 1);
+INSERT INTO coche VALUES(3, 'FG-2001-E2', 'VW-UP!', '#fc0303', 'Honda', 20000.00, 3);
 
 
 
