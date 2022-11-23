@@ -282,6 +282,7 @@ https://jsonformatter.org/
 ---
 
 **Ejercicio 1:**
+
 Crear un archivo JSON llamado personas.json que contenga los siguientes datos:
 
 | Nombres          | Apellido           | DNI       | Telefono    | Localidad    |
@@ -326,6 +327,7 @@ Crear un archivo JSON llamado productos.json que contenga la siguiente informaci
 ---
 
 **Ejercicio 4:**
+
 - (a) Crear una carpeta llamada “nodejs”.
 - (b) Dentro de la carpeta “nodejs”, ejecutar el comando “npm init”. Seguir los pasos por defecto. Esto creará un archivo package.json
 - (c) Luego, editar el objeto “scripts” y agregar la linea: "start": "node index.js" quedando:
