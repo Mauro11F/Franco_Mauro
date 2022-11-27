@@ -353,6 +353,8 @@ console.log('Hola soy un programa');
 
 - (f) Luego ejecutar npm start
 
+---
+
 **Ejercicio 5:**
 
 - (a) Dentro de la carpeta nodejs
