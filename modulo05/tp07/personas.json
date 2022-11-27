@@ -1,0 +1,39 @@
+{
+   "personas" : [
+      {
+         "nombre" : "Pedro",
+         "apellido" : "Guzman",
+         "DNI" : 22773450,
+         "Telefono" : 3755121314,
+         "Localidad" : "L. N: Alem"
+      },
+      {
+         "nombre" : "Pedro",
+         "apellido" : "Guzman",
+         "DNI" : 22773450,
+         "Telefono" : 3755121314,
+         "Localidad" : "L. N: Alem"
+      },
+      {
+         "nombre" : "Pedro",
+         "apellido" : "Guzman",
+         "DNI" : 22773450,
+         "Telefono" : 3755121314,
+         "Localidad" : "L. N: Alem"
+      },
+      {
+         "nombre" : "Pedro",
+         "apellido" : "Guzman",
+         "DNI" : 22773450,
+         "Telefono" : 3755121314,
+         "Localidad" : "L. N: Alem"
+      },
+      {
+         "nombre" : "Pedro",
+         "apellido" : "Guzman",
+         "DNI" : 22773450,
+         "Telefono" : 3755121314,
+         "Localidad" : "L. N: Alem"
+      }
+   ]
+}
