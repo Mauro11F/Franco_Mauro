@@ -1,0 +1,50 @@
+a - Describe dos usos o funciones que proporciona la declaración DOCTYPE en una página web.
+
+a) DOCTYPE : informa al navegador qué versión de HTML (o XML) se usó para escribir el documento. Y si las etiquetas de un sitio o documento XML seran entendidas por el interprete.
+
+#########################################################################################################
+
+b - Para que se utilizan las siguientes etiquetas:
+
+<head> </head>			----> Es la cabecera de la pagina
+
+<title> </title>		----> Nos permite definir el "título de web"
+
+<meta>				----> Indicamos el "tipo de codificación de caracteres" de la página con "UTF-8"
+
+<style> </style>		----> Se usa para poder poner "estilos" a la pagina
+
+<body> </body>			----> Se usa para el "Inicio del Contenido" de la Pagina
+
+<h1>,<h2>,<h3>,<h4>,<h5>,<h6>	----> Se utiliza para poner defirentes "tipos de Titulos", empezando por el mas importante <h1> al menos importante <h6>
+
+<a>				----> Se usa para poder poner "enlaces"
+
+<strong>			----> indica un énfasis fuerte o marcado
+
+<br>				----> Nos permite dar un "salto de linea" en el documento html
+
+<ul>				----> Se utiliza para crear una "lista desordenada"
+
+<li>				----> Va dentro de un "ul" para "poner item en esa lista"
+
+<p>				----> Se utiliza para creacion de "parrafos" dentro de html
+
+<span>				----> Sirve para aplicar estilo al texto o agrupar elementos en línea
+
+<table> </table>		----> Es la marca de comienzo para crear una "tabla"
+
+<tr> </tr>			----> Es la marca de comienzo de una "fila". Esta marca debe estar dentro del elemento "table"
+
+<td> </td>			----> Es la marca de comienzo de una "celda". Esta marca debe estar dentro del elemento "tr"
+
+<img>				----> Se usa para poder poner una "imagen" en la pagina
+
+#########################################################################################################
+
+c- La etiqueta <script> puede ir dentro de las etiquetas de de <body> o <head>, hay alguna
+diferencia donde pueda ir?
+
+c) La etieuta <script> va dentro de la etiqueta <body>.
+	La difencia de poner en <head> es que el navegador se entreteneria en cargar funciones javascripts innecesarias antes de la carga completa de la web. Funciones que el usuario todavia no pidio o no solicito.
+
