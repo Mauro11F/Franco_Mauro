@@ -1,7 +1,7 @@
-CURSO PROGRAMACIÓN WEB FULL STACK
+# CURSO PROGRAMACIÓN WEB FULL STACK (NIVEL 2)
 
-NIVEL 2
+## Módulo 6 - Programación FrontEnd Trabajo Práctico 11
 
-Módulo 6 - Programación FrontEnd
-Trabajo Práctico 11
-1) Crear la siguiente estructura de archivos/carpetas
+- 1)_ Crear la siguiente estructura de archivos/carpetas
+
+`Completando...`
