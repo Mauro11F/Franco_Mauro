@@ -1,8 +1,4 @@
-*
-{
-   padding: 0;
-   margin: 0;
-}
+
 header
 {
    background-color: darkblue;
@@ -17,6 +13,7 @@ header
    vertical-align: middle;
    left: 20px;
    padding: 10px;
+   margin-top: 20px;
    height: 60px;
 }
 .titulo
@@ -41,7 +38,33 @@ header
    color: darkblue;
    /* text-decoration: none; */
 }
-.menu h1
+
+.tabla
 {
-   
+   display: flex;
+   justify-content: center;
+}
+table,tr,th,td
+{
+   border-collapse: collapse;
+   border: 1px solid black;
+   font-size: 20px;
+}
+th
+{
+   background-color: #e4e4e4;
+}
+table
+{
+
+   width: 70%;
+}
+
+button
+{
+   font-size: 20px;
+}
+.material-icons
+{
+   font-size: 2px;
 }
